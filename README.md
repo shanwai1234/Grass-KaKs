@@ -6,7 +6,7 @@ Grass-KaKs is used to calculate the ratio of the number of nonsynonymous substit
 - The code only works under Linux system.
 - Install [Phylogenetic Analysis by Maximum Likelihood (PAML)](http://abacus.gene.ucl.ac.uk/software/paml.html) in your environmental path.
 - Syntenic gene list with multiple species (example could be found in [here](10.6084/m9.figshare.3113488.v1)).
-- Relevant CDS sequence with primary transcript of your analyzed species.
+- Relevant CDS sequence with primary transcript of your analyzed species. Name of fasta file should be idential with name in the header file of syntenic gene list.
 
 ## Run the analysis
 
