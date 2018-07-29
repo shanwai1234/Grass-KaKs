@@ -2,6 +2,10 @@ import argparse
 import fasta_align
 import codon_align
 
+__author__ = "Zhikai Liang"
+__copyright__ = "Copyright 2018, Grass-KaKs"
+__license__ = "BSD 3.0"
+
 def main():
 
 	parser = argparse.ArgumentParser()
