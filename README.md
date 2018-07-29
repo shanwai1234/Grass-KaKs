@@ -1,4 +1,4 @@
-# Grass-KaKs![](https://img.shields.io/badge/Release-v1.0.1-blue.svg)  [![](https://img.shields.io/pypi/l/Django.svg)](https://github.com/shanwai1234/Grass-KaKs/commits/master)
+# Grass-KaKs ![](https://img.shields.io/badge/Release-v1.0.1-blue.svg)  [![](https://img.shields.io/pypi/l/Django.svg)](https://github.com/shanwai1234/Grass-KaKs/commits/master)
 Grass-KaKs is used to calculate the ratio of the number of nonsynonymous substitutions per non-synonymous site (Ka) to the number of synonymous substitutions per synonymous site (Ks) per gene in multiple grass species.
 
 ## Dependencies
