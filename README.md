@@ -1,4 +1,4 @@
-# Grass-KaKs
+# Grass-KaKs![](https://img.shields.io/badge/Release-v1.0.1-blue.svg)  [![](https://img.shields.io/pypi/l/Django.svg)](https://github.com/shanwai1234/Grass-KaKs/commits/master)
 Grass-KaKs is used to calculate the ratio of the number of nonsynonymous substitutions per non-synonymous site (Ka) to the number of synonymous substitutions per synonymous site (Ks) per gene in multiple grass species.
 
 ## Dependencies
@@ -14,9 +14,9 @@ Grass-KaKs is used to calculate the ratio of the number of nonsynonymous substit
 ```
  python grass-kaks-generator.py -s sorghum3 maize4_1 setaria2 -i syntenic_list_example.csv -m
 ```
-- -s species name you want to analyze, it should be idential as the header in syntenic gene list file.
-- -i syntenic gene list.
-- -m since maize contains a whole genome duplication, set this flag when you include maize in the analysis. maize1 and maize2 should be run separately.
+- -s, species name you want to analyze, it should be idential as the header in syntenic gene list file.
+- -i, syntenic gene list.
+- -m, since maize contains a whole genome duplication, set this flag when you include maize in the analysis. maize1 and maize2 should be run separately.
 
 The header for these three species is `Maize,dn,ds,dn/ds,Sorghum,dn,ds,dn/ds,Seteria,dn,ds,dn/ds`
 
