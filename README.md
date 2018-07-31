@@ -14,14 +14,14 @@ Grass-KaKs is used to calculate the ratio of the number of nonsynonymous substit
 ```
  python grass-kaks-generator.py -s sorghum3 maize4_1 setaria2 -i syntenic_list_example.csv -m
 ```
-- -s, species name you want to analyze, it should be idential as the header in syntenic gene list file.
-- -i, syntenic gene list.
-- -m, since maize contains a whole genome duplication, set this flag when you include maize in the analysis. maize1 and maize2 should be run separately.
+- `-s`, species name you want to analyze, it should be idential as the header in syntenic gene list file.
+- `-i`, syntenic gene list.
+- `-m`, since maize contains a whole genome duplication, set this flag when you include maize in the analysis. maize1 and maize2 should be run separately.
 
 The header for these three species is `Maize,dn,ds,dn/ds,Sorghum,dn,ds,dn/ds,Seteria,dn,ds,dn/ds`
 
 ### Several things you need to notice
-- unflag -m if you do not contain species of maize
+- unflag `-m` if you do not contain species of maize
 - clean up `codon_alignment` folder after you run
 - modify `tree` function in `codon_align.py` based on relations among your species
 - customize parameters in `codeml.ctl` as your requirements. Detailed setting could be found in [here](http://nebc.nerc.ac.uk/bioinformatics/documentation/paml/doc/pamlDOC.pdf)  
