@@ -26,3 +26,4 @@ The header for these three species is `Maize,dn,ds,dn/ds,Sorghum,dn,ds,dn/ds,Set
 - modify `tree` function in `codon_align.py` based on relations among your species
 - customize parameters in `codeml.ctl` as your requirements. Detailed setting could be found in [here](http://nebc.nerc.ac.uk/bioinformatics/documentation/paml/doc/pamlDOC.pdf)  
 - modify `extract_codeml.py` to extract dn(Ka), ds(Ks) and dn/ds(Ka/Ks) ratio for corresponding species
+- change the header for your input species.
