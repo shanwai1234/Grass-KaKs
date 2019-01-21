@@ -21,6 +21,7 @@ Grass-KaKs is used to calculate the ratio of the number of nonsynonymous substit
 The header for these three species is `Maize,dn,ds,dn/ds,Sorghum,dn,ds,dn/ds,Seteria,dn,ds,dn/ds`
 
 ### Several things you need to notice
+- the subgenome of WGD (Whole Genome Duplication) Species is analyzed separately
 - unflag `-m` if you do not contain species of maize
 - clean up `codon_alignment` folder after you run
 - modify `tree` function in `codon_align.py` based on relations among your species
