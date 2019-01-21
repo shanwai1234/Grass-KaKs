@@ -3,12 +3,14 @@ import sys
 import os
 
 def extfa(myfile, sp):
-# myfile is the fasta file, sp the gene name
-# A script for extracting certain sequences from within a FASTA file.
+ '''
+ myfile is the fasta file, sp the gene name
+ A script for extracting certain sequences from within a FASTA file.
  
-# First, convert FASTA file into file with one line per sequence.
-# Make sure the name of your FASTA file doesn't contain any dots
-# besides the one before the extension!
+ First, convert FASTA file into file with one line per sequence.
+ Make sure the name of your FASTA file doesn't contain any dots
+ besides the one before the extension!
+ '''
     linenum = 0
     onelinefile = 'allononeline_' + myfile.partition('.')[0] + '.tmp'
     with open(onelinefile, 'w') as outfile:
