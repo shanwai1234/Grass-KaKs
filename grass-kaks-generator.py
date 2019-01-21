@@ -3,11 +3,13 @@ import fasta_align
 import codon_align
 
 __author__ = "Zhikai Liang"
-__copyright__ = "Copyright 2018, Grass-KaKs"
+__copyright__ = "Copyright 2019, Grass-KaKs"
 __license__ = "BSD 3.0"
 
 def main():
-
+'''
+main code to run and generate Ka/Ks results
+'''
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-s', '--species', action='append', nargs='+', help='add name of species you want to analyze')
 	parser.add_argument('-i', '--inputfile', help='add the syntenic gene list file')
