@@ -19,8 +19,6 @@ def fa(*args):
 			with open(fname) as infile:
 				for line in infile:
 					three.write(line)
-			infile.close()
-	three.close()
 
 	for arg in args[0]:
 		os.remove('{0}.fa'.format(arg))
