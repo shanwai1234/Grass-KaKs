@@ -28,3 +28,4 @@ The header for these three species is `Maize,dn,ds,dn/ds,Sorghum,dn,ds,dn/ds,Set
 - customize parameters in `codeml.ctl` as your requirements. Detailed setting could be found in [here](http://nebc.nerc.ac.uk/bioinformatics/documentation/paml/doc/pamlDOC.pdf)  
 - modify `extract_codeml.py` to extract dn(Ka), ds(Ks) and dn/ds(Ka/Ks) ratio for corresponding species
 - change the header for your input species.
+- when more than 3 species, you need to define background and foreground species, also should label your interested branches
